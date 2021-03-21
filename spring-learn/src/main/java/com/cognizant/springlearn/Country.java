@@ -6,7 +6,6 @@ public class Country {
 
 	private String code;
 	private String name;
-	public Logger logger=Logger.getLogger("Country.class");
 	
 	
 	public String getCode() {
@@ -31,6 +30,7 @@ public class Country {
 		return "Country [code=" + code + ", name=" + name + "]";
 	}
 	public Country() {
+		Logger logger=Logger.getLogger("Country.class");
 		logger.info("Inside country constructor");
 	}
 	

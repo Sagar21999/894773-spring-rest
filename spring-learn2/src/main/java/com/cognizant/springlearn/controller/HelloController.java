@@ -15,6 +15,8 @@ public class HelloController {
 	public String sayHello() {
 		//System.out.println("hello");
 		logger.info("sayHello() method start");
+		logger.info("sayHello() method end");
+
 		return "Hello World!";
 	}
 }

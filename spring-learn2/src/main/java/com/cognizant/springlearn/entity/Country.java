@@ -7,11 +7,12 @@ public class Country {
 	private String code;
 	private String name;
 	
-	//public Logger logger=Logger.getLogger("Country.class");
 	
 	
 	public Country() {
-		super();
+		
+		Logger logger=Logger.getLogger("Country.class");
+		logger.info("inside constructor");
 		// TODO Auto-generated constructor stub
 	}
 	public String getCode() {
